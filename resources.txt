@@ -1,0 +1,125 @@
+# -- Google Ads API Developers blog
+    https://ads-developers.googleblog.com/
+
+# -- Google Ads API help forum
+    https://groups.google.com/g/adwords-api
+
+# -- Stackoverflow questions tagged 'google-ads-api'
+    https://stackoverflow.com/questions/tagged/google-ads-api
+
+# -- Information on the sunset of the old Google Adwords API
+    https://ads-developers.googleblog.com/2021/04/upgrade-to-google-ads-api-from-adwords.html
+
+# -- Google Ads API v8 release notes
+    https://developers.google.com/google-ads/api/docs/release-notes#v8
+
+# -- Google Ads API transition webinar
+    https://www.youtube.com/watch?v=2QaNf-JGCGU
+
+# -- Google Ads Developers YouTube channel
+    https://www.youtube.com/c/GoogleAdsDevelopers/
+
+# -- API Center within Google Ads account
+    https://ads.google.com/aw/apicenter
+
+# -- Google Cloud Platform (GCP) page for setting up projects and beginning authentication process
+    https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts
+
+# -- Guide to authentication of Google Ads API apps
+    https://developers.google.com/google-ads/api/rest/auth
+
+# -- Video presentation on authentication of Google Ads API apps
+    https://www.youtube.com/watch?v=2GWx6jI7Ib4
+    
+# -- Google Ads YAML authentication file for Python users, to be stored locally
+    https://github.com/googleads/google-ads-python/blob/master/google-ads.yaml
+    
+  # Note: in most cases, the same auth credentials can be provided in-script through use of a dictionary instead
+    
+  # Although less secure, you can swap out the YAML read:
+   
+   googleads_client = GoogleAdsClient.load_from_storage(version="v8")
+   
+  # For credentials defined in a dictionary (Python examples)
+   
+    credentials = {
+    "developer_token": "DEVELOPER TOKEN HERE",
+    "refresh_token": "REFRESH TOKEN HERE",
+    "client_id": "CLIENT ID HERE",
+    "client_secret": "CLIENT SECRET HERE"}
+    
+    googleads_client = GoogleAdsClient.load_from_dict(credentials)
+    
+# -- Google API OAuth 2.0 scopes and protocols
+    https://developers.google.com/identity/protocols/oauth2
+
+# -- Google Ads API client libraries by language, most with executable code samples
+    https://developers.google.com/google-ads/api/docs/client-libs
+    
+  # Note: Most of these code samples will not execute without modifications, and some mix-and-match functions 
+  and modules are used from deprecated or soon-deprecated libraries. These are a good starting place but will still take 
+  a fair amount of tweaking and trial-and-error code substitutions to be usable in production.
+    
+
+# -- Google Ads API code samples
+    https://developers.google.com/google-ads/api/docs/samples
+
+# -- Google Ads API "Quickstart" (Making your first API call)
+    https://developers.google.com/google-ads/api/docs/first-call/overview
+
+# -- Google Ads API REST documentation
+    https://developers.google.com/google-ads/api/rest/overview
+
+# -- Dated, but good article on Hackernoon about REST API usage
+    https://medium.com/hackernoon/using-google-ads-api-with-rest-endpoints-c8957eab1d31
+
+# -- Google Ads RPC/gRPC documentation
+    https://developers.google.com/google-ads/api/reference/rpc/v8/overview
+
+# -- Google Ads reporting requests via SOAP + XML
+    https://developers.google.com/adwords/api/docs/guides/call-structure
+
+# -- Google Ads Github page, libraries and code samples for most common languages
+    https://github.com/googleads
+    https://github.com/orgs/googleads/repositories?q=api&type=source&language=&sort=
+
+# -- Guides to common Google API errors messages and codes
+    https://cloud.google.com/resource-manager/docs/core_errors
+    https://developers.google.com/google-ads/api/reference/rpc/v8/overview#errors
+
+# -- Guide to account performance reporting
+    https://developers.google.com/adwords/api/docs/guides/reporting
+
+# -- Querying Google Ads assets and metrics
+    https://developers.google.com/google-ads/api/docs/assets/fetching-assets
+
+# -- Guides to syntax and structure used in GAQL (Google Ads Query Language)
+    https://developers.google.com/chart/interactive/docs/querylanguage
+    https://developers.google.com/google-ads/api/docs/query/structure
+
+# -- Resources able to be queried using "GoogleAdsService.Search" in v8. These can be used in GAQL queries.
+    https://developers.google.com/google-ads/api/fields/v8/overview
+
+# -- GAQL Query Builder, ad_group_criterion used as example
+    https://developers.google.com/google-ads/api/fields/v8/ad_group_criterion_query_builder
+
+# -- GAQL Query Validator
+    https://developers.google.com/google-ads/api/fields/v8/query_validator
+
+# -- Making account changes via API (beware, AdWords API)
+    https://developers.google.com/adwords/api/docs/guides/accounts-overview
+
+	# Making campaign changes (beware, AdWords API)
+	  https://developers.google.com/adwords/api/docs/guides/campaigns-overview
+
+	# Making ad changes (beware, AdWords API)
+	  https://developers.google.com/adwords/api/docs/guides/ad-features
+
+	# Making other changes
+	  https://developers.google.com/google-ads/api/docs/samples
+
+# -- Common error messages
+    https://developers.google.com/adwords/api/docs/common-errors
+
+# -- Google Ads Doctor, OAuth2 environment and report anomaly auditor
+    https://github.com/googleads/google-ads-doctor
